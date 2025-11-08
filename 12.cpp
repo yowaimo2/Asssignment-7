@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    char str[100], ch;
+    char str[10], ch;
     
     cout << "Enter string: ";
     cin >> str;
@@ -19,4 +19,5 @@ int main() {
         cout << "Not found" << endl;
         
     return 0;
+
 }
