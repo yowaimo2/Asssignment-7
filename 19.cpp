@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    char sentence[200] = "";
+    char sentence[100] = "";
     char word[50];
 
     cout << "Enter words (type 'done' to stop):\n";
@@ -23,4 +23,5 @@ int main() {
     cout << "Sentence: " << sentence << endl;
 
     return 0;
+
 }
